@@ -1,1 +1,1 @@
-# Lumaris_Corp
+# Lumina Horizon
