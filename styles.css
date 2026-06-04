@@ -65,6 +65,7 @@ body {
     font-weight: 800;
     letter-spacing: 1px;
     background: linear-gradient(135deg, #ffffff, var(--text-secondary));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -176,9 +177,9 @@ body {
     margin-bottom: 1.5rem;
     letter-spacing: -1px;
     background: linear-gradient(135deg, #ffffff 30%, var(--accent-cyan));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     animation: slideDown 0.8s ease;
 }
 
@@ -250,6 +251,7 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
     background: linear-gradient(135deg, #ffffff, var(--accent-purple));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
