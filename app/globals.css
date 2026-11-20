@@ -122,3 +122,14 @@ button{font:inherit}
 .state-note{display:inline-block;border:1px solid rgba(0,191,255,.25);padding:6px 10px;color:#a8dff1;font-size:10px;letter-spacing:.08em;margin-top:15px}
 .contact-note{border-left:2px solid var(--cyan);padding:4px 0 4px 18px;margin-top:28px;color:#c6d5e8;font-size:13px}
 @media(max-width:620px){.inner-hero{padding-top:80px;padding-bottom:55px}.content-grid{grid-template-columns:1fr}.content-block{padding-top:55px;padding-bottom:55px}}
+
+/* Shared responsive navigation */
+.menu-toggle{display:none;background:transparent;border:1px solid var(--line);color:var(--silver);padding:8px;cursor:pointer}
+.navigation{z-index:40}
+@media(max-width:620px){
+ .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
+ .navigation{display:none;position:absolute;top:69px;left:0;right:0;padding:14px 22px 22px;background:rgba(3,8,17,.98);border-bottom:1px solid var(--line);align-items:stretch;gap:0;flex-direction:column}
+ .navigation.navigation-open{display:flex}
+ .navigation>a{padding:13px 2px;border-bottom:1px solid var(--line)}
+ .navigation .nav-contact{margin-top:12px;justify-content:center;border:1px solid rgba(0,191,255,.4)}
+}
