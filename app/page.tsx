@@ -100,7 +100,7 @@ export default function HomePage() {
       <section className="media-section" id="media">
         <div className="section-wrap media-layout">
           <div><div className="section-kicker">04 / LUMINA HORIZON MEDIA</div><p className="media-label">DIVISIÓN DE CONTENIDO</p><h2>Ideas, tecnología<br />y conversaciones<br /><span>que inspiran.</span></h2></div>
-          <div className="media-description"><p>Lumina Horizon Media es la división dedicada a explorar y comunicar temas de tecnología, ciencia, innovación, cultura digital y accesibilidad a través de formatos audiovisuales y editoriales.</p><p>Un espacio para aprender, investigar y compartir perspectivas. Su contenido se irá incorporando a medida que cada publicación esté lista.</p><a className="button button-outline" href="#contacto">Conoce nuestra visión <ArrowUpRight size={17} /></a></div>
+          <div className="media-description"><p>Lumina Horizon Media es la división dedicada a explorar y comunicar temas de tecnología, ciencia, innovación, cultura digital y accesibilidad a través de formatos audiovisuales y editoriales.</p><p>Un espacio para aprender, investigar y compartir perspectivas. Su contenido se irá incorporando a medida que cada publicación esté lista.</p><a className="button button-outline" href="/media">Conoce nuestra visión <ArrowUpRight size={17} /></a></div>
           <div className="media-watermark" aria-hidden="true">LH<span>.</span></div>
         </div>
       </section>
