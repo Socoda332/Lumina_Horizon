@@ -133,3 +133,11 @@ button{font:inherit}
  .navigation>a{padding:13px 2px;border-bottom:1px solid var(--line)}
  .navigation .nav-contact{margin-top:12px;justify-content:center;border:1px solid rgba(0,191,255,.4)}
 }
+
+/* Enlaces legales y destinos de distribución */
+.footer-legal{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.footer-legal a{font-size:10px;color:#8190a6;transition:color .2s}
+.footer-legal a:hover{color:var(--cyan)}
+.store-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.store-status{display:inline-flex;align-items:center;min-height:42px;padding:0 14px;border:1px solid var(--line);color:#91a1b7;font-size:11px}
+@media(max-width:620px){.footer-legal{gap:16px}}
