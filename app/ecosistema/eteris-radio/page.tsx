@@ -7,13 +7,11 @@ export default function EterisPage(){
   return <PageShell>
     <PageIntro number="02.1" eyebrow="SUBMARCA · RADIO DIGITAL" title={<>Eteris <span>Radio.</span></>} lead="Una nueva forma de conectar con el mundo."/>
     <section className="section-wrap content-block">
-      <span className="state-note">PROYECTO EN DESARROLLO</span>
-      <h2>Una experiencia sonora por construir.</h2>
-      <p>Eteris Radio es la iniciativa de Lumina Horizon dedicada a la radio 100% digital. Su propuesta parte de conectar audiencias a través de contenidos sonoros y una identidad propia dentro del ecosistema.</p>
-      <p>Estamos trabajando en el desarrollo del proyecto. Próximamente compartiremos información confirmada sobre programación, formatos y canales de escucha.</p>
-      {projectLinks.eterisWebsite
-        ? <a className="content-link" href={projectLinks.eterisWebsite} target="_blank" rel="noopener noreferrer">Visitar el sitio oficial de Eteris Radio <ArrowUpRight size={15}/></a>
-        : <p className="contact-note">El sitio web oficial de Eteris Radio se publicará aquí cuando esté disponible.</p>}
+      <span className="state-note">DISPONIBLE EN TUNEIN</span>
+      <h2>Conecta con Eteris Radio.</h2>
+      <p>Eteris Radio es la propuesta de Lumina Horizon dedicada a la radio 100% digital. Ya cuenta con una presencia de escucha en TuneIn, desde donde puedes acceder a la emisora.</p>
+      <p>Seguiremos desarrollando sus contenidos, identidad y canales digitales. Compartiremos nuevas vías de acceso cuando estén disponibles.</p>
+      <a className="content-link" href={projectLinks.eterisTuneIn} target="_blank" rel="noopener noreferrer">Escuchar Eteris Radio en TuneIn <ArrowUpRight size={15}/></a>
       <Link className="content-link" href="/#ecosistema">Volver al ecosistema</Link>
     </section>
   </PageShell>
