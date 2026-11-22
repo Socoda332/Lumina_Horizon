@@ -113,7 +113,6 @@ export default function HomePage() {
       <footer className="site-footer">
         <a className="brand footer-brand" href="#inicio"><Image src="/Lumina_horizon.png" alt="" width={38} height={38} /><span className="brand-name">LUMINA <b>HORIZON</b></span></a>
         <p>Tecnología que transforma. Futuro para todos.</p>
-        <nav className="footer-legal" aria-label="Enlaces legales"><a href="/privacidad">Privacidad y datos</a><a href="/cookies">Política de cookies</a></nav>
         <span className="footer-copy">© {new Date().getFullYear()} Lumina Horizon. Una visión en construcción.</span>
       </footer>
     </main>
