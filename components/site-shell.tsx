@@ -6,10 +6,6 @@ export function SiteFooter() {
   return <footer className="site-footer">
     <Link className="brand footer-brand" href="/"><Image src="/Lumina_horizon.png" alt="" width={38} height={38}/><span className="brand-name">LUMINA <b>HORIZON</b></span></Link>
     <p>Tecnología que transforma. Futuro para todos.</p>
-    <nav className="footer-legal" aria-label="Enlaces legales">
-      <Link href="/privacidad">Privacidad y datos</Link>
-      <Link href="/cookies">Política de cookies</Link>
-    </nav>
     <span className="footer-copy">© {new Date().getFullYear()} Lumina Horizon.</span>
   </footer>
 }
