@@ -141,3 +141,32 @@ button{font:inherit}
 .store-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 .store-status{display:inline-flex;align-items:center;min-height:42px;padding:0 14px;border:1px solid var(--line);color:#91a1b7;font-size:11px}
 @media(max-width:620px){.footer-legal{gap:16px}}
+
+
+/* Lumina Horizon Media: secciones editoriales semimodulares */
+.media-content-section,.media-principles{padding-top:82px;padding-bottom:88px}
+.media-content-section h2,.media-coverage h2,.media-principles h2,.media-channels h2{font-size:clamp(30px,4vw,48px);line-height:1.14;letter-spacing:-.04em;font-weight:500;max-width:760px;margin:24px 0 34px}
+.media-content-section h2 span,.media-coverage h2 span,.media-principles h2 span,.media-channels h2 span{color:var(--cyan)}
+.media-area-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.media-area-card{border:1px solid var(--line);padding:24px;background:linear-gradient(145deg,rgba(14,27,47,.68),rgba(5,12,23,.84));min-height:175px}
+.media-area-card>span{font-size:10px;letter-spacing:.14em;color:var(--cyan)}
+.media-area-card h3,.media-coverage-grid h3{font-size:19px;font-weight:500;margin:17px 0 8px}
+.media-area-card p,.media-coverage-grid p{font-size:12px;line-height:1.8;color:#91a1b7;margin:0}
+.media-coverage,.media-channels{padding:82px 0;background:linear-gradient(180deg,#060c17,#050a13);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.media-coverage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.media-coverage-grid article{border-top:1px solid rgba(0,191,255,.32);padding-top:16px}
+.media-principles-lead{max-width:790px;color:#9eacc0;font-size:14px;line-height:1.9}
+.media-principles ul{padding-left:19px;max-width:790px;color:#b8c6d8;font-size:13px;line-height:2}
+.media-channels-intro{max-width:690px;color:#9eacc0;font-size:14px;line-height:1.9;margin:-12px 0 30px}
+.media-channel-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.media-channel-card{display:block;border:1px solid var(--line);padding:23px;transition:border-color .2s,transform .2s;background:rgba(2,4,10,.35)}
+.media-channel-card:hover{border-color:rgba(0,191,255,.55);transform:translateY(-2px)}
+.media-channel-card>span{display:flex;align-items:center;justify-content:space-between;color:var(--cyan)}
+.media-channel-card strong{font-size:19px;font-weight:500;color:var(--white)}
+.media-channel-card p{min-height:48px;color:#91a1b7;font-size:12px;line-height:1.8}
+.media-channel-card small{font-size:10px;letter-spacing:.08em;color:#c8d5e7}
+.media-provisional-note{font-size:10px;line-height:1.7;color:#73839a;margin:20px 0 0}
+.media-about{padding-top:45px;padding-bottom:70px}
+.media-about p{max-width:820px;color:#9eacc0;font-size:13px;line-height:1.9;margin-top:22px}
+@media(max-width:800px){.media-area-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.media-content-section,.media-principles{padding-top:60px;padding-bottom:65px}.media-area-grid,.media-coverage-grid,.media-channel-grid{grid-template-columns:1fr}.media-area-card{min-height:0}.media-coverage,.media-channels{padding:62px 0}.media-channel-card p{min-height:0}}
