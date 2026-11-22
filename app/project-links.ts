@@ -1,9 +1,9 @@
 /**
- * Enlaces oficiales del ecosistema.
- * Mantener null hasta que cada destino esté publicado y verificado.
+ * Enlaces públicos y oficiales del ecosistema.
+ * Añadir destinos de tiendas cuando Lazarus esté publicado.
  */
 export const projectLinks = {
-  eterisWebsite: null as string | null,
+  eterisTuneIn: "https://tunein.com/radio/Eteris-Radio-s363879/",
   lazarusGooglePlay: null as string | null,
   lazarusAppStore: null as string | null,
 }
