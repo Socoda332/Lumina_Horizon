@@ -60,7 +60,7 @@ export default function HomePage() {
           <article><span className="principle-number">01</span><Sparkles size={21} /><h3>Innovación</h3><p>Cuestionar lo establecido y explorar nuevas posibilidades.</p></article>
           <article><span className="principle-number">02</span><ArrowUpRight size={21} /><h3>Desarrollo</h3><p>Transformar ideas en experiencias y soluciones útiles.</p></article>
           <article><span className="principle-number">03</span><Eye size={21} /><h3>Inclusión</h3><p>Considerar a las personas y sus distintas formas de interactuar con el mundo.</p></article>
-          <article><span className="principle-number">04</span><ShieldCheck size={21} /><h3>Responsabilidad</h3><p>Comunicar con honestidad y construir con criterio.</p></article>
+          <article><span className="principle-number">04</span><ShieldCheck size={21} /><h3>Visión de futuro</h3><p>Anticipar posibilidades y construir con una perspectiva de largo plazo.</p></article>
         </div>
       </section>
 
@@ -75,13 +75,13 @@ export default function HomePage() {
               <div className="project-topline"><span>SUBMARCA / MEDIOS DIGITALES</span><Radio size={20} /></div>
               <div className="project-art eteris-art" aria-hidden="true"><div className="radio-orbit orbit-a" /><div className="radio-orbit orbit-b" /><div className="radio-core"><Radio size={42} strokeWidth={1.1} /></div></div>
               <div className="project-info"><div><h3>Eteris <span>Radio</span></h3><p>Una nueva forma de conectar con el mundo.</p></div><span className="status status-planned">Proyecto en desarrollo</span></div>
-              <a className="project-link" href="#contacto" aria-label="Consultar sobre Eteris Radio">Explorar proyecto <ArrowUpRight size={17} /></a>
+              <a className="project-link" href="/ecosistema/eteris-radio" aria-label="Conocer el proyecto Eteris Radio">Conocer Eteris Radio <ArrowUpRight size={17} /></a>
             </article>
             <article className="project-card project-lazarus">
               <div className="project-topline"><span>SUBMARCA / SOFTWARE Y ACCESIBILIDAD</span><Eye size={20} /></div>
               <div className="project-art lazarus-art" aria-hidden="true"><div className="lazarus-rings" /><div className="lazarus-core"><Eye size={42} strokeWidth={1.1} /></div><span className="scan-line" /></div>
               <div className="project-info"><div><h3>Lazarus</h3><p>Tecnología de asistencia para explorar el entorno con mayor información.</p></div><span className="status status-progress">En desarrollo</span></div>
-              <a className="project-link" href="#contacto" aria-label="Consultar sobre Lazarus">Explorar proyecto <ArrowUpRight size={17} /></a>
+              <a className="project-link" href="/ecosistema/lazarus" aria-label="Consultar el estado del proyecto Lazarus">Conocer Lazarus <ArrowUpRight size={17} /></a>
             </article>
           </div>
           <p className="project-note">Las descripciones reflejan el enfoque de los proyectos, no una disponibilidad comercial ni funcionalidades ya implementadas.</p>
@@ -113,6 +113,7 @@ export default function HomePage() {
       <footer className="site-footer">
         <a className="brand footer-brand" href="#inicio"><Image src="/Lumina_horizon.png" alt="" width={38} height={38} /><span className="brand-name">LUMINA <b>HORIZON</b></span></a>
         <p>Tecnología que transforma. Futuro para todos.</p>
+        <nav className="footer-legal" aria-label="Enlaces legales"><a href="/privacidad">Privacidad y datos</a><a href="/cookies">Política de cookies</a></nav>
         <span className="footer-copy">© {new Date().getFullYear()} Lumina Horizon. Una visión en construcción.</span>
       </footer>
     </main>
